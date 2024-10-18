@@ -1,0 +1,203 @@
+#check{
+    display:none;
+}
+.checkBtn{
+    display: none;
+    padding-right: 20px;
+    font-size: 23px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+header{
+    background-color:white;
+    height: 12vh;
+}
+
+/* navcontainer */
+
+@media(max-width:576px){
+    .navLinks{
+        display: none;
+        position: absolute;
+        margin-top: 75%;
+        margin-left: 5px;
+        font-size: 20px;
+        width: 100%;
+        /* border-top: 1px solid black; */
+         /* border-bottom: 1px solid black; */
+   }
+    .checkBtn{
+        display: block;
+    }
+    #check:checked ~ .navLinks{
+        display: block;
+    }
+    .navLinks li{
+       padding: 9px;
+    }
+    .navLinks li a{
+        padding: 10px;
+    }
+    .logo img{
+        margin-left: 35px;
+        height: 10;
+    }  
+    
+} 
+
+/* herocontainer */ 
+
+@media(max-width:576px){
+    .h-heading{
+     font-size: 35px;
+ }
+    .h-para{
+     font-size: 14px;
+     line-height: 1.5;
+    }
+    .h-btn{
+     font-size: 15px;
+    }
+    .jumbotron{
+       width: 60%;
+       margin-left: 1%;
+    }
+ }
+
+ /* aboutcontainer  */
+  
+@media(max-width:576px){
+    .aboutSection{
+        flex-direction: column;
+    }
+    .aboutContent h3{
+        font-size: 40px;
+        margin-bottom: 3%; 
+    }
+    .aboutContent p{
+        font-size: 12px;
+        margin-bottom: 5%; 
+    } 
+    .aboutContent .btn{
+        font-size: 12px;
+    }
+   
+}
+  
+@media(max-width:452px){   
+    .aboutContent h3{
+        font-size: 30px;
+    }
+    .aboutContent p{
+        font-size: 12px;
+    } 
+    .aboutContent .btn{
+        font-size: 12px;
+    }  
+     .aboutImage{
+     margin-left: 40px  ;
+     }
+} 
+
+/* facilitycontainer */
+
+@media(max-width:576px){
+    .fboxContainer{
+        flex-direction: column;
+    }
+    .fheading h3{
+        font-size: 30px;
+    }
+    .fbox fp{
+        font-size: 12px;
+    }
+    .fheading img{
+        margin-top: 50px;
+    }
+    .fbox img{
+        margin-top: 5px;
+    }
+ }
+
+/* maincontainer */
+
+ @media(max-width:576px){
+    .mbox-Container1{
+    flex-direction: column;
+    }
+    .mbox-Container2{
+        flex-direction: column;
+    }
+}
+
+
+/* gallerycontainer
+ */
+@media(max-width:576px){
+    .gbox-Container1{
+        flex-direction: column;
+    }
+    .gbox-Container2{
+        flex-direction: column;
+    }
+    .box img{
+        width: 300px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:576px){
+    .tbox-Container1{
+        flex-direction: column;
+    }
+    .tbox-Container2{
+        flex-direction: column;
+    }
+    .theading-Image h3{
+        font-size: 30px;
+    }
+    .box h3{
+        font-size: 17px;
+    }
+}
+
+/* contactcontainer */
+
+@media(max-width:576px){
+    .cbox-Container{
+        flex-direction: column;
+    }
+    .cbox-Image img{
+        width: 420px;
+    }
+    .table form{
+        width: 90%;
+        margin-left: 25px;
+    }
+    .box{
+        margin-left: 18px;
+    }
+    .cheading-Image img{
+        width: 150px;
+    }    
+}
+
+/* footerontainer */
+
+@media(max-width:576px){
+    .ftboxContainer{
+     flex-direction: column;
+    }
+    .ftbox h3{
+     font-size: 19px;
+    }
+    .ftbox p{
+     font-size: 15px;
+     line-height: 2px;
+    }
+    .ftbox{
+     margin-bottom: 20px;
+    }
+ }
+    

@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&family=Noto+Sans:ital,wght@1,300&family=Roboto+Serif:opsz@8..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&family=Noto+Sans:ital,wght@1,300&family=Open+Sans:ital,wght@1,300&family=Roboto+Serif:opsz@8..144&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navContainer start */
+.navSection{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color:rgb(1, 1, 18);
+    color: white;
+}
+.navSection h1{
+    font-family: 'Roboto Serif', serif;
+    margin-left: 20px;
+}
+.navLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    list-style-type: none;
+}
+.navLinks a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Merienda', cursive;
+}
+/* navContainer End */
+
+/* heroContainer start */
+
+.heroSection{
+    display: flex;
+    background-image: url(./images/blue.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 100px;
+    border-bottom: 2px solid white;
+}
+.jumbotron{
+    height: 50%;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.content{
+    width: 100%;
+}
+.jumbotron h1{
+    width: 70%;
+    font-size: 40px;
+}
+.jumbotron p{
+    font-size: 20px;
+    line-height: 2rem;
+    margin-top: 15px;
+}
+.hero-image img{
+    padding: 0px 150px 0;
+    width: 700px;
+}
+
+/* heroContainer End */
+
+/* aboutContainer */
+
+.aboutSection{
+    height: 50%;
+    width: 100%;
+    background-color: #00000B;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid white;
+}
+.about-Image img{
+    /* padding: 100px 200px 0;  */
+    margin-left: 200px;
+  
+}
+.aboutSection h1{
+    font-family: 'Merienda', cursive;
+    margin-bottom: 10px;
+}
+.aboutSection h2{
+    font-family: 'Roboto Serif', serif;
+    margin-bottom: 5px;
+    color: aqua;
+}
+.aboutSection p{
+    width: 80%;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    line-height: 2rem;
+}
+.aboutSection li{
+    font-size:  18px;
+    color: aqua;
+    list-style-type: none;
+}
+.skills-Name i{
+    padding: 5px;
+    border: 1px solid  aqua;
+    border-radius: 700px;
+    font-size: 10px;
+    background-color:aqua;
+    color: white;
+}
+.skills-Name{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    line-height: 3rem;
+}
+/* aboutcontainer End */
+
+/* cardContainer start */
+
+.Qualification-Container{
+    background-color: #00000B;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(333px,1fr));
+}
+.cardContainer{
+    height: 100%;
+    width: 70%;
+    padding:70px 10px;
+    margin-left: 70px;
+}
+.card{
+    height: 100%;
+    width:100%;
+    border-radius: 5px;
+    background-color: rgb(108, 106, 106);
+    box-shadow: -7px 6px rgb(176, 170, 170);
+    color: white;
+    /* margin-left: 80px; */
+}
+.cardBody p{
+    font-size: 17px;
+    margin-top: 30px;
+    font-weight: 200;
+}
+.cardBody{
+    padding: 20px 15px 40px;
+}
+.cardBody h1{
+    padding-bottom: 20px;
+    border-bottom:2px solid #585861;
+    font-family: 'Roboto Serif', serif;
+}
+.Q-heading h1{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    font-family: 'Roboto Serif', serif;
+    padding: 50px 0 0;
+}
+.Qualification-Section{
+    border-bottom: 2px solid white;
+}
+/* cardcontainer End */
+
+/* skills section start*/
+.skills-Section{
+    background-color: #00000B;
+    color: white;
+    /* padding-bottom: 30px; */
+    border-bottom: 2px solid white;
+}
+.S-Heading{
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Roboto Serif', serif;
+}
+.ss-cardContainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(500px,2fr));
+    gap:2rem;
+}
+.ss-Card{
+    height: 70px;
+    width: 62%;
+    border-radius: 5px;
+    background-color: #808086;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: -7px 7px rgb(185, 183, 183);
+}
+.ss-cardBody img{
+    width: 30px;
+    border-radius: 5px;
+}
+.ss-cardBody{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 20px 10px;
+}
+.ss-Box{
+    padding: 70px 70px 70px 270px;
+}
+
+/* skillsSection End */
+
+
+/* projectSection Start */
+.pro-cardImage img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.project-Section{
+    background-color: #00000B;
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 20px 0 0;
+}
+.pro-Heading{
+    text-align: center;
+}
+.pro-cardContainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(500px,2fr));
+    gap: 4rem;
+    padding: 50px 200px;
+}
+.pro-Card{
+    background-color: #3c3c41;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+.pro-cardBody{
+    padding: 20px;
+}
+.pro-Card:hover{
+    cursor: pointer;
+    box-shadow: -7px 5px rgb(179, 167, 167);
+}
+.pro-cardImage img:hover{
+    transform: scale(1.1);
+    box-shadow: -7px 5px rgb(179, 167, 167);
+}
+.pro-cardImage{
+    overflow: hidden;
+    transition: all 0.5s;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.pro-cardBody h1{
+    font-family: 'Roboto Serif', serif;
+}
+.pro-cardBody p{
+    font-family: 'Roboto Serif', serif;
+    font-size: 15px;
+    padding: 10px 0;
+}
+.pro-cardBody button{
+    font-family: 'Merienda', cursive;
+    font-weight: bold;
+    background-color: #1f1f21;
+    padding: 8px 10px;
+    border:1px solid  #1f1f21;
+    border-radius: 5px;
+}
+.pro-cardBody button:hover{
+    cursor: pointer;
+    background-color:rgb(203, 104, 5);
+}
+.pro-cardBody a{
+    color: white;
+    text-decoration: none;
+}
+.cap img{
+    height: 350px;
+}
+.garden img{
+    height: 300px;
+}
+.coding img{
+    height: 290px;
+}
+/* projectSection end */
+
+/* contactSection start */
+.contactSection{
+    width: 100%;
+    background-color:black;
+    color: white;
+    padding-top: 20px;
+}
+.c-Heading{
+    text-align:center;
+}
+.table{
+    padding: 50px 200px 50px 330px;
+}
+.tfbox{
+    padding: 10px ;
+    width: 435px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    background-color: #1f1f21;
+    border: 1px solid white;
+    background-color: #1f1f21;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.tfbox1{
+    padding: 10px;
+    width: 890px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    background-color: #1f1f21;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.tfbox2{
+    width: 890px;
+    padding:10px 10px 80px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    background-color: #1f1f21;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;  
+}
+.table button{
+    padding: 10px;
+    width: 890px;
+    font-size: 16px;
+    background-color: rgb(161, 189, 180);
+    border-radius: 10px;
+    font-weight:bold;
+}
+.table button:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+/* contactSection end */
+
+/* footerSection start */
+.footerContainer{
+    width: 100%;
+    padding: 40px 290px;
+    background-color: #1f1f21;
+    color: white;
+    font-size: 20px;
+}
+.socialMediaIcons{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footerSection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.socialMediaIcons i{
+    font-size: 25px;
+    padding: 8px;
+}
+/* footerSection end  */

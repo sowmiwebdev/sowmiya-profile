@@ -1,0 +1,114 @@
+#check{
+    display: none;
+}
+.checkBtn{
+    display: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+/* navContainer */
+@media(max-width:576px){
+    .html{
+        overflow: hidden;
+        width: 100%;
+    }
+    .navLinks{
+        display: none;
+        position: absolute;
+        margin-top: 90%;
+        /* margin-left: 10px; */
+        height: 40%;
+        background-color: black;
+        width: 100%;
+    }
+    .navSection{
+        border-bottom: 0.1px solid white;
+    }
+    .checkBtn{
+        display: block;
+        cursor: pointer;
+    }
+    #check:checked ~ .navLinks{
+        display: block;
+    }
+    .navLinks li{
+        padding: 10px;
+    }
+}
+
+@media(max-width:576px){
+    .jumbotron{
+        flex-direction: column;
+    }
+    .jumbotron h1{
+        font-size: 25px;
+        width: 80%;
+    }
+    .heroSection{
+        padding: 20px;
+    }
+    .hero-image img{
+        padding: 0px 10px 0;
+        width: 400px;
+    }
+    
+    .aboutSection{
+        flex-direction: column;
+        width: 100%;
+        padding-left: 20px;
+    }
+    .about-Image img{
+        width: 350px;
+        margin-left: 5px;
+    }
+    .skills-Name{
+        flex-direction: column;
+    }
+    .sname2{
+        margin-left: 25px;
+    }
+    .ss-Card{
+        width:270px;
+        margin-left: 10px;
+    }
+    .cardContainer{
+        padding:50px 25px;
+    }
+    .ss-Box{
+        padding: 40px 70px 20px;
+    }
+   .pro-cardContainer{
+        padding: 20px 12px 20px;
+   }
+   .pro-Card{
+        width:65%;
+        margin-left: 15px;
+   }
+   .table{
+        padding: 20px 7px 20px;
+        margin-left: 35px;
+   }
+   .tfbox{
+        width: 300px;
+   }
+   .tfbox1 , .tfbox2{
+        width: 300px;
+   }
+   .table button{
+        width: 300px;
+   }
+   .footerContainer{
+        padding: 20px 20px 40px;
+   }
+   .footerSection{
+        flex-direction: column;
+        line-height: 3rem;
+   }
+   
+}
+@media(max-width:576px){
+    
+}
